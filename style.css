@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #2b0033, #4b006e);
+  color: #fff;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 40px 20px;
+  border-bottom: 2px solid gold;
+}
+
+h1 {
+  color: gold;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: gold;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.mensagem, .declaracao, .musica {
+  max-width: 600px;
+  margin: auto;
+}
+
+.musica audio {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.foto {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid gold;
+  border-radius: 15px;
+  padding: 10px;
+  width: 220px;
+}
+
+.foto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  padding: 20px;
+  border-top: 2px solid gold;
+}
+
+/* LÍRIOS DECORATIVOS */
+body::before {
+  content: "🌸 🌿 🌸 🌿 🌸";
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  opacity: 0.3;
+  font-size: 20px;
+}
+
+body::after {
+  content: "🌿 🌸 🌿 🌸 🌿";
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.3;
+  font-size: 20px;
+}
+
+/* CORAÇÕES CAINDO */
+.coracao {
+  position: fixed;
+  top: -10px;
+  font-size: 20px;
+  animation: cair linear forwards;
+}
+
+@keyframes cair {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
