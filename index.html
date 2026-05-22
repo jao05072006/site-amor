@@ -214,6 +214,37 @@ iframe {
     <p>Feito com amor 💜</p>
   </footer>
 
-  
+
+
+  <script>
+function criarCoracao() {
+  const coracao = document.createElement("div");
+
+  coracao.classList.add("coracao");
+  coracao.innerHTML = "💜";
+
+  // posição aleatória
+  coracao.style.left =
+    Math.random() * window.innerWidth + "px";
+
+  // velocidade aleatória
+  coracao.style.animationDuration =
+    (Math.random() * 3 + 2) + "s";
+
+  // tamanho aleatório
+  coracao.style.fontSize =
+    (Math.random() * 20 + 15) + "px";
+
+  document.body.appendChild(coracao);
+
+  // remove depois
+  setTimeout(() => {
+    coracao.remove();
+  }, 5000);
+}
+
+// cria coração a cada 300ms
+setInterval(criarCoracao, 300);
+</script>
 </body>
 </html>
