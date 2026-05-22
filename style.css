@@ -60,23 +60,36 @@ footer {
   border-top: 2px solid gold;
 }
 
+
+
 /* LÍRIOS DECORATIVOS */
 body::before {
-  content: "🌸 🌿 🌸 🌿 🌸";
+  content: "";
   position: fixed;
   top: 10px;
   left: 10px;
-  opacity: 0.3;
-  font-size: 20px;
+  width: 120px;
+  height: 120px;
+  background-image: url('https://pngimg.com/d/lily_PNG36.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.25;
+  z-index: 0;
 }
 
 body::after {
-  content: "🌿 🌸 🌿 🌸 🌿";
+  content: "";
   position: fixed;
   bottom: 10px;
   right: 10px;
-  opacity: 0.3;
-  font-size: 20px;
+  width: 120px;
+  height: 120px;
+  background-image: url('https://pngimg.com/d/lily_PNG36.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.25;
+  transform: rotate(180deg);
+  z-index: 0;
 }
 
 
