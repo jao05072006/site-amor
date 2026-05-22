@@ -66,30 +66,30 @@ footer {
 body::before {
   content: "";
   position: fixed;
-  top: 10px;
-  left: 10px;
-  width: 120px;
-  height: 120px;
-  background-image: url('https://pngimg.com/d/lily_PNG36.png');
-  background-size: contain;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 140px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/LiliumBulbiferumCroceum.jpg/240px-LiliumBulbiferumCroceum.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.25;
-  z-index: 0;
+  opacity: 0.15;
+  z-index: -1;
 }
 
 body::after {
   content: "";
   position: fixed;
-  bottom: 10px;
-  right: 10px;
-  width: 120px;
-  height: 120px;
-  background-image: url('https://pngimg.com/d/lily_PNG36.png');
-  background-size: contain;
+  bottom: 0;
+  right: 0;
+  width: 140px;
+  height: 140px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/LiliumBulbiferumCroceum.jpg/240px-LiliumBulbiferumCroceum.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.25;
+  opacity: 0.15;
   transform: rotate(180deg);
-  z-index: 0;
+  z-index: -1;
 }
 
 
