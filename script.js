@@ -5,7 +5,7 @@ function abrirCarta(numero){
 
     if(numero == 1){
 
-        titulo.innerHTML = "Nossa primeira fotoddd 💜";
+        titulo.innerHTML = "Nossa primeira foto💜";
 
         texto.innerHTML = `Aqui vai a carta da foto 1.`;
 
