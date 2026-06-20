@@ -1,7 +1,7 @@
 function abrirCarta(numero){
 
     const titulo = document.getElementById("tituloCarta");
-    const texto = document.getElementById("textoCarta");
+    const texto = document.getElementById("`Aqui foi aonde tudo começou né, eu estava tão ansioso e tão nervosokkkkkk. Quando eu te vi chegando, com aquele sorriso lindo, eu me encantei na mesma hora, vc estava linda e tão cheirosa, mas teve algo diferente, na mesma hora eu sentir o Espirito Santo em ti, Jesus brilha em você.`");
 
     if(numero == 1){
 
