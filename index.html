@@ -126,6 +126,93 @@ iframe {
 }
 
 
+
+
+/* Fundo escuro */
+.carta{
+    display:none;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.75);
+
+    justify-content:center;
+    align-items:center;
+
+    z-index:999;
+}
+
+/* Caixa da carta */
+.carta-conteudo{
+
+    width:90%;
+    max-width:650px;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    animation:aparecer .35s;
+
+    box-shadow:0 0 30px rgba(0,0,0,.3);
+
+}
+
+.carta-conteudo h2{
+
+    color:#8e44ad;
+
+    margin-bottom:20px;
+
+}
+
+.carta-conteudo p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#444;
+
+    white-space:pre-line;
+
+}
+
+.fechar{
+
+    float:right;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+}
+
+@keyframes aparecer{
+
+    from{
+        opacity:0;
+        transform:scale(.8);
+    }
+
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+
+}
+
+
+
+
+
+
 </style>
 
 
@@ -232,6 +319,22 @@ iframe {
   
 <script src="script.js"></script>
 
+
+
+
+
+<!-- CARTA -->
+<div id="carta" class="carta">
+    <div class="carta-conteudo">
+
+        <span class="fechar" onclick="fecharCarta()">✖</span>
+
+        <h2 id="tituloCarta"></h2>
+
+        <p id="textoCarta"></p>
+
+    </div>
+</div>
 
 
 
