@@ -1,19 +1,19 @@
-function abrirCarta(numero){
+ function abrirCarta(numero){
 
     const titulo = document.getElementById("tituloCarta");
-    const texto = document.getElementById("Aqui foi aonde tudo começou né, eu estava tão ansioso e tão nervosokkkkkk. Quando eu te vi chegando, com aquele sorriso lindo, eu me encantei na mesma hora, vc estava linda e tão cheirosa, mas teve algo diferente, na mesma hora eu sentir o Espirito Santo em ti, Jesus brilha em você.");
+    const texto = document.getElementById("textoCarta");
 
     if(numero == 1){
 
-        titulo.innerHTML = "Nossa primeira foto💜";
+        titulo.innerHTML = "Nossa primeira foto 💜";
 
-        texto.innerHTML = `Aqui vai a carta da foto 1.`;
+        texto.innerHTML = `Aqui foi aonde tudo começou né, eu estava tão ansioso e tão nervosokkkkkk. Quando eu te vi chegando, com aquele sorriso lindo, eu me encantei na mesma hora, vc estava linda e tão cheirosa, mas teve algo diferente, na mesma hora eu sentir o Espirito Santo em ti, Jesus brilha em você.`;
 
     }
 
     if(numero == 2){
 
-        titulo.innerHTML = "Foto 2 💜";
+        titulo.innerHTML = "Foto 2💜";
 
         texto.innerHTML = `Aqui vai a carta da foto 2.`;
 
