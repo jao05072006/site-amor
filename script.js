@@ -15,7 +15,7 @@
 
         titulo.innerHTML = "Foto 2💜";
 
-        texto.innerHTML = `Aqui vai a carta da foto 2.`;
+        texto.innerHTML = " `Aqui vai a carta da foto 2.`";
 
     }
 
@@ -23,7 +23,7 @@
 
         titulo.innerHTML = "Foto 3 💜";
 
-        texto.innerHTML = `Aqui vai a carta da foto 3.`;
+        texto.innerHTML = "`Aqui vai a carta da foto 3.`";
 
     }
 
@@ -31,7 +31,7 @@
 
         titulo.innerHTML = "Foto 4 💜";
 
-        texto.innerHTML = `Aqui vai a carta da foto 4.`;
+        texto.innerHTML = "`Aqui vai a carta da foto 4.`";
 
     }
 
@@ -39,7 +39,7 @@
 
         titulo.innerHTML = "Foto 5 💜";
 
-        texto.innerHTML = `Aqui vai a carta da foto 5.`;
+        texto.innerHTML = "`Aqui vai a carta da foto 5.`";
 
     }
 
@@ -47,7 +47,7 @@
 
         titulo.innerHTML = "Foto 6 💜";
 
-        texto.innerHTML = `Aqui vai a carta da foto 6.`;
+        texto.innerHTML = "`Aqui vai a carta da foto 6.`";
 
     }
 
@@ -55,7 +55,7 @@
 
         titulo.innerHTML = "Foto 7 💜";
 
-        texto.innerHTML = `Aqui vai a carta da foto 7.`;
+        texto.innerHTML = "`Aqui vai a carta da foto 7.`";
 
     }
 
@@ -63,7 +63,7 @@
 
         titulo.innerHTML = "Foto 8 💜";
 
-        texto.innerHTML = `Aqui vai a carta da foto 8.`;
+        texto.innerHTML = "`Aqui vai a carta da foto 8.`";
 
     }
 
@@ -71,7 +71,7 @@
 
         titulo.innerHTML = "Foto 9 💜";
 
-        texto.innerHTML = `Aqui vai a carta da foto 9.`;
+        texto.innerHTML = "`Aqui vai a carta da foto 9.`";
 
     }
 
