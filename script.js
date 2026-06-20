@@ -34,7 +34,7 @@ function abrirCarta(numero) {
      }
 
     if (numero == 9) {
-        alert("Carta da Foto 8 ❤️");
+        alert("Carta da Foto 9 ❤️");
     }
 
 }
