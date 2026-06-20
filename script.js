@@ -30,6 +30,11 @@ function abrirCarta(numero) {
 
     if (numero == 8) {
         alert("Carta da Foto 8 ❤️");
+
+     }
+
+    if (numero == 9) {
+        alert("Carta da Foto 8 ❤️");
     }
 
 }
